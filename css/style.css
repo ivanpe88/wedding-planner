@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: "Poppins", sans-serif;
+font-family: "Edu AU VIC WA NT Hand", cursive;*/
+/*------------------------------header--------------------------------*/
+
+.navbar{
+    list-style: none;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.navbar li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.navbar li a:hover{
+    background-color: aliceblue;
+}
+.navbar2{
+    list-style:none ;
+    background-color: cadetblue;
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+.navbar li :hover .navar2{
+    display: block;
+}
+
+.header-1{
+    background-color: #2b2b2b;
+    display:flex;
+}
+.header-1{
+    width: 100%;
+    height: 170px;
+}
+.header-1 .logotipo img{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+    margin-top: 25px;
+}
+.header-1 .texto-principal{
+    width: 40%;
+    height: 80%;
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.header-1 .texto-secundario{
+    width: 40%;
+    height: 80%;
+    margin-top: 80px;
+    margin-left: 45px;
+    font-size: 2rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: white;
+}
+
+/*-----------------------------main-----------------------------*/
+
+.portada .foto-portada{
+    width: 100%;
+    height: 900px;
+    object-fit: contain;
+}
+.titulo-1{
+ font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color:black;
+  font-size: 10vh;
+  text-align: center;
+  margin: 25px 35px;
+}
+.subtitulo-1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color:black;
+  font-size: 3vh;
+  text-align: center;
+  margin: 25px 35px;
+}
+.portada-02{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+    margin: 30px 30px;
+    position: relative;
+}
+.wrap .foto-01{
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+}
+.wrap h2{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    background-color:rgba(255, 255, 255, 0.411);
+    padding: 12px 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color:black;
+    font-size: 3.5vh;
+}
+.wrap h2 a{
+    text-decoration:none;
+    list-style: none;
+    color: black;
+}
+.wrap-01 h2 a{
+    text-decoration:none;
+    list-style: none;
+    color: black;
+}
+.foto-02{
+    grid-column: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.wrap-01 h2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    background-color:rgba(255, 255, 255, 0.411);
+    padding: 12px 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color:black;
+    font-size: 3.5vh;
+}
+.frase h2{
+   font-weight: 500;
+   color:black;
+   font-size: 6vh;
+   text-align: center;
+   margin-top: 80px;
+}
+.frase .frase-texto{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 80px 20px 20px 230px;
+}
+.container img{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.container p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.frase-1 h2{
+font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style:normal;
+   color:black;
+   font-size: 5vh;
+   text-align: center;
+}
+.subtitulo-2{
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style:normal;
+   color:black;
+   font-size: 3vh;
+   text-align: center;
+}
+.pregunta{
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color:black;
+  font-size: 10vh;
+  text-align: center;
+  margin: 25px 35px;
+}
+.eslogan{
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+button{
+    padding: 10px 40px;
+    border-top: 2px solid rgba(110, 110, 110, 0.24);
+  background-color: #99999971;
+    margin-inline-start: 600px;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+}
+button a{
+    list-style:none;
+    text-decoration: none;
+    color:black;
+}
+
+.container p{
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style:normal;
+   color:black;
+   font-size: 2.5vh;  
+}
+.wedding img{
+    width: 16%;
+    object-fit: contain;
+}
+.catering img{
+    width: 16%;
+    object-fit: contain;
+}
+.camera img{
+    width: 16%;
+    object-fit: contain;
+}
+.diseño img{
+    width: 16%;
+    object-fit: contain;
+}
+.deejay img{
+    width: 16%;
+    object-fit: contain;
+}
+.videos img{
+    width: 16%;
+    object-fit: contain;
+}
+.animaciones img{
+    width: 16%;
+    object-fit: contain;
+}
+.transporte img{
+    width: 16%;
+    object-fit: contain;
+}
+.flores img{
+    width: 16%;
+    object-fit: contain;
+}
+.frase h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(7, 7, 7);
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    justify-content: center;
+    margin: 10px 10px;
+}
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    margin: 20px 60px 20px 40px;
+}
+.container-2 img{
+    width: 15%;
+    margin-left: 5px;
+}
+.container-2 .title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(7, 7, 7);
+    margin-left: 5px 2px 5px 2px;
+}
+.container-2 .description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+    text-justify: auto;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.subtitulo-6 h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+}
+::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(7, 7, 7);
+}
+.check p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: rgb(7, 7, 7);
+}
+select{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;    
+}
+option{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
+.conociste{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
+form{
+
+    display: grid;
+    grid-template-columns:repeat(2. 1f) ;
+    grid-template-rows:50px 50px 150px 85px 55px 75px;
+    margin: 20px 20px;
+}
+.nombre{
+    grid-column: 1 ;
+    grid-row:1 ;
+    margin-left: 10px;
+}
+.nombre input{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+}
+.email{
+    grid-column: 2 ;
+    grid-row:1 ;
+}
+.email input{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+}
+.telefono{
+    grid-column: 1 ;
+    grid-row:2 ;
+    margin-left: 10px;
+}
+.telefono input{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+}
+.eventos{
+    grid-column: 2 ;
+    grid-row:2 ;
+    margin-left: 50px;
+}
+.eventos select{
+    width: 40%;
+    height: 30px;
+    margin-top: 10px;
+}
+.contanos{
+    grid-column: 1/3;
+    grid-row:3;
+}
+.contanos input{
+    width: 80%;
+    height: 100%;
+    margin-inline: calc(10%);
+    text-align: start;
+}
+.contanos input ::placeholder{
+    text-align: start;
+    padding: 0%;
+}
+.conocer{
+    grid-column: 1 ;
+    grid-row:4 ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.conocer select{
+    width: 40%;
+    height: 30px;
+    margin-top: 5px;
+}
+.conociste{
+    grid-column: 2;
+    grid-row: 4;
+}
+.check{
+    grid-column: 1/3;
+    grid-row: 5;
+    width: 100%;
+}
+.check input{
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 35px;
+    margin-inline: calc(40%);
+}
+.check p{
+    margin-inline: calc(42%);
+    width: 60%;
+    text-align:start;
+    margin-top: -20px;
+}
+
+.boton{
+    grid-column: 1/3;
+    grid-row: 6;
+}
+.boton input{
+    margin-top: 25px;
+    width: 100px;
+    height: 35px;
+    margin-inline: calc(45%);
+}
+
+
+
+
+
+
+
+/*---------------------footer--------------------*/
+footer{
+    background-color: #2b2b2b;
+    width:100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+footer p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style:normal;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-left: 100px; 
+    grid-column: 2;
+    grid-row: 1; 
+}
+.redes-sociales img{
+    width: 45px;
+    padding-block: 5px;
+    padding-inline: 5px;
+}
+.redes-sociales{
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.final p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 0.8rem;
+    margin-left: 330px;
+}
+.final{
+    grid-column: 1/4;
+    grid-row: 3;
+}
